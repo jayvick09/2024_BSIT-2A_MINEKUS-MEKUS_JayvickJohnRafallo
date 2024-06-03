@@ -1,0 +1,71 @@
+.boxt {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 7px;
+  font-size: 32px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  table-layout: fixed; /* Ensures table does not exceed container */
+}
+
+table th,
+table td {
+  padding: 8px 9px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  font-size: 11px;
+  word-wrap: break-word; /* Ensures long content wraps */
+}
+
+table th {
+  background-color: #333;
+  font-weight: bold;
+  color: #fff;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tbody tr:hover {
+  background-color: #f2f2f2;
+}
+
+.action-button {
+  margin: 5px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+#accept-button {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#decline-button {
+  background-color: #f44336;
+  color: white;
+}
